@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="mt-8 text-center mx-auto w-9/12 bg-[#E5E5E5] p-5">
+        <h1 class="text-3xl font-semibold text-[#31A5AC]">Money Master</h1>
+    </header>
+    <main>
+       <section class="mx-auto w-9/12 mt-6 h-96 p-4">
+        <div class="grid grid-cols-2 gap-3">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iusto pariatur tenetur, optio libero dolorem quos et excepturi nulla, voluptatibus unde totam! Dicta voluptates accusantium iure rem, dolorem cumque quis!
+            Similique, eligendi laborum quos molestias perspiciatis dolorem neque ab distinctio officiis nostrum aspernatur porro aperiam earum. Cumque dolorum esse dicta, totam ducimus deleniti veritatis. At laborum rerum laboriosam consequuntur omnis.
+            Atque distinctio ipsam facere natus id expedita aliquam quidem dolorem dolores sint placeat vitae possimus ex quo quis qui, fuga maxime laboriosam aliquid voluptate voluptatum. Amet odit dignissimos inventore obcaecati.
+            Veritatis, iure! Iste cumque, nam a adipisci totam, laborum repellat omnis mollitia sint quia aperiam vero, aliquam eaque odio? Sunt animi explicabo vel enim illum, fugiat quod ipsa unde commodi.
+            Rerum iusto error ea voluptatem! Eos, perspiciatis sint. Amet labore voluptas hic ea eius sit suscipit! Iure, maxime exercitationem ab ipsa nemo eveniet repellat repudiandae, aspernatur, mollitia obcaecati quos at.
+            Dolorum quam sequi minus dicta nesciunt ipsam magnam voluptas, iusto quisquam a optio officiis assumenda iure perspiciatis quibusdam numquam in qui unde, pariatur odio natus quos veritatis placeat cumque? Consequatur.</div>
+           <div class="bg-[#F8F8F8]">
+            <div class="text-center" >
+                <h1 class="text-2xl mt-8 text-center font-semibold">Income</h1>    
+                 <div class="text-center mt-8">
+                   <label for="">income</label>
+                    <input id="income" class="bg-[#DCDCDC]" type="text">
+                 </div>
+                 <h2 class="mt-4 text-center text-2xl font-semibold">Expanse</h2>
+                 <div class="text-center mt-8">
+                    <label for="">Fodd:</label>
+                     <input id="fodd" class="bg-[#DCDCDC]" type="text">
+                  </div><div class="text-center mt-4">
+                    <label for="">Rent: </label>
+                     <input id="rent" class="bg-[#DCDCDC]" type="text">
+                  </div><div class="text-center mt-4">
+                    <label for="">Cloth:</label>
+                     <input id="cloth" class="bg-[#DCDCDC]" type="text">
+                  </div>
+                  <button id="all-expance" class="rounded-sm mt-4 px-8 py-1 bg-[#59A5FF]">calculate</button>
+          
+                  <h1 class="text-center mt-4 text-2xl  font-semibold">Total Expanses:<span id="total-expance" ></span></h1>
+                  <h1 class="text-center mt-2 text-2xl  font-semibold">Blance:<span id="curren-blance"></span></h1>
+                  <div class="mt-4 text-center" >
+                    <label class="text-1xl font-semibold">Save</label>
+                    <input id="save-amount-value" class="w-24 bg-[#DCDCDC]" type="text"><span class="p-2">%</span>
+                    <button id="save-amount-button" class=" bg-[#59A5FF] px-4">save</button>
+                  </div>
+                </div>
+                  <h1 class="text-center mt-4 text-2xl  font-semibold">Saving Amount:<span id="save-amount" ></span></h1>
+                  <h1  class="text-center mt-2 text-2xl  font-semibold">Remaining Blance:<span id="remaining-amount"></span></h1>
+                  
+           </div>
+           
+        </div>
+       </section>
+    </main>
+    <script src="js/calculet.js"></script>
+    
+</body>
+</html>
